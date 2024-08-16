@@ -1,0 +1,34 @@
+#module1Container {
+  background-color: blueviolet;
+  width: 100%;
+  height: 1080px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/bg.jpg);
+}
+#contentBox {
+  border: 2px solid black;
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+#typed-text {
+  font-size: 100px;
+  font-weight: 700;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  user-select: none;
+  z-index: 10;
+  border: 2px solid black;
+}
